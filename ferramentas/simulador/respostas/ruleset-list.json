@@ -1,0 +1,14 @@
+[
+  {
+    "id": 101,
+    "name": "proteger-main",
+    "target": "branch",
+    "enforcement": "active"
+  },
+  {
+    "id": 102,
+    "name": "tags-de-release",
+    "target": "tag",
+    "enforcement": "evaluate"
+  }
+]

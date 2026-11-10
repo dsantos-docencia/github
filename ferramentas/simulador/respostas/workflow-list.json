@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "CI",
+    "path": ".github/workflows/ci.yml",
+    "state": "active"
+  },
+  {
+    "id": 2,
+    "name": "Pages",
+    "path": ".github/workflows/pages.yml",
+    "state": "active"
+  },
+  {
+    "id": 3,
+    "name": "Limpeza semanal",
+    "path": ".github/workflows/limpeza.yml",
+    "state": "disabled_manually"
+  }
+]

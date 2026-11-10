@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" width="920" height="360" role="img" aria-label="Três jeitos de provar quem você é para o GitHub">
+<title>Três jeitos de provar quem você é para o GitHub</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="920" height="360" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="30" y="36" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Três jeitos de provar quem você é para o GitHub</text>
+<rect x="30" y="65" width="270" height="200" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="165.0" y="91" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🔑 HTTPS + token</text>
+<text x="165.0" y="111" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">senha da conta NÃO serve</text>
+<text x="165.0" y="129" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">para Git desde 2021: use um</text>
+<text x="165.0" y="147" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">token (PAT) ou o Git Credential</text>
+<text x="165.0" y="165" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">Manager (login no navegador)</text>
+<text x="165.0" y="183" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">https://github.com/…</text>
+<text x="165.0" y="200" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">github_pat_…</text>
+<rect x="325" y="65" width="270" height="200" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="460.0" y="91" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🗝️ SSH</text>
+<text x="460.0" y="111" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">par de chaves: a privada</text>
+<text x="460.0" y="129" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">fica com você, a pública vai</text>
+<text x="460.0" y="147" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">para o GitHub; sem senha</text>
+<text x="460.0" y="165" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">no dia a dia (ssh-agent)</text>
+<text x="460.0" y="183" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">git@github.com:…</text>
+<text x="460.0" y="200" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">id_ed25519.pub</text>
+<rect x="620" y="65" width="270" height="200" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="755.0" y="91" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🧰 gh auth login</text>
+<text x="755.0" y="111" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">login pelo navegador (OAuth);</text>
+<text x="755.0" y="129" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">o gh guarda o token no cofre</text>
+<text x="755.0" y="147" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">do sistema e configura o Git</text>
+<text x="755.0" y="165" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">para usá-lo</text>
+<text x="755.0" y="183" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">gh auth setup-git</text>
+<text x="755.0" y="200" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">gho_…</text>
+<text x="460" y="295" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0f172a">Em todos os casos: 2FA ligado na conta, e o token com o MÍNIMO de permissões e prazo de validade.</text>
+<text x="460" y="320" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748b">Prefixos ajudam a reconhecer tokens vazados: ghp_ (clássico) · github_pat_ (fine-grained) · gho_ (OAuth) · ghs_ (Actions/App)</text>
+<text x="896" y="346" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#94a3b8">© 2026 Prof. Daniel Santos · CC BY-NC-SA 4.0</text>
+</svg>

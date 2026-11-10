@@ -1,0 +1,33 @@
+{
+  "name": "laboratorio",
+  "nameWithOwner": "aluno/laboratorio",
+  "description": "Repositório de laboratório do Curso de GitHub",
+  "visibility": "PRIVATE",
+  "isPrivate": true,
+  "defaultBranchRef": {
+    "name": "main"
+  },
+  "stargazerCount": 3,
+  "forkCount": 1,
+  "licenseInfo": {
+    "key": "mit",
+    "name": "MIT License"
+  },
+  "repositoryTopics": [
+    {
+      "name": "curso"
+    },
+    {
+      "name": "github"
+    },
+    {
+      "name": "laboratorio"
+    }
+  ],
+  "url": "https://github.com/aluno/laboratorio",
+  "sshUrl": "git@github.com:aluno/laboratorio.git",
+  "hasIssuesEnabled": true,
+  "hasWikiEnabled": false,
+  "deleteBranchOnMerge": true,
+  "pushedAt": "2026-11-09T14:00:00Z"
+}

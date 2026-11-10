@@ -1,0 +1,29 @@
+{
+  "health_percentage": 71,
+  "description": "Repositório de laboratório do Curso de GitHub",
+  "documentation": null,
+  "files": {
+    "code_of_conduct": null,
+    "code_of_conduct_file": null,
+    "contributing": {
+      "url": "https://api.github.com/repos/aluno/laboratorio/contents/CONTRIBUTING.md",
+      "html_url": "https://github.com/aluno/laboratorio/blob/main/CONTRIBUTING.md"
+    },
+    "issue_template": {
+      "url": "x",
+      "html_url": "https://github.com/aluno/laboratorio/tree/main/.github/ISSUE_TEMPLATE"
+    },
+    "pull_request_template": null,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT"
+    },
+    "readme": {
+      "url": "x",
+      "html_url": "https://github.com/aluno/laboratorio/blob/main/README.md"
+    }
+  },
+  "updated_at": "2026-11-09T14:00:00Z",
+  "content_reports_enabled": false
+}

@@ -1,0 +1,24 @@
+# Curso de GitHub · Projeto 03 · copie para .github/workflows/triagem.yml
+# e o triagem.sh para .github/scripts/triagem.sh no seu repositório.
+# © 2026 Prof. Daniel Santos · PolyForm-NC
+name: Triagem de issues
+on:
+  issues:
+    types: [opened]
+permissions: {}
+jobs:
+  triagem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read      # para o checkout do script (da branch padrão, não do issue)
+      issues: write       # rotular e comentar
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/scripts
+      - name: Triar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash .github/scripts/triagem.sh

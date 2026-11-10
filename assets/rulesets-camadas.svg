@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-label="Rulesets em camadas: todas as regras valem — a mais restritiva vence">
+<title>Rulesets em camadas: todas as regras valem — a mais restritiva vence</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="900" height="480" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="30" y="36" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Rulesets em camadas: todas as regras valem — a mais restritiva vence</text>
+<rect x="30" y="60" width="270" height="110" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="165.0" y="86" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">📋 ruleset “proteger-main”</text>
+<text x="165.0" y="106" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">alvo: ~DEFAULT_BRANCH</text>
+<text x="165.0" y="124" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">bloquear exclusão e force push</text>
+<text x="165.0" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">PR com 1 aprovação</text>
+<rect x="30" y="185" width="270" height="110" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="165.0" y="211" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">📋 ruleset “qualidade”</text>
+<text x="165.0" y="231" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">alvo: main, release/**</text>
+<text x="165.0" y="249" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">check “verificar” obrigatório</text>
+<text x="165.0" y="267" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">PR com 2 aprovações</text>
+<rect x="30" y="310" width="270" height="100" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="165.0" y="336" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🛡️ proteção de branch (antiga)</text>
+<text x="165.0" y="356" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">ainda funciona e soma junto</text>
+<text x="165.0" y="374" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">histórico linear</text>
+<rect x="590" y="140" width="280" height="200" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="730.0" y="166" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">✅ o que vale na main</text>
+<text x="730.0" y="186" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">sem exclusão / force push</text>
+<text x="730.0" y="204" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">PR com 2 aprovações</text>
+<text x="730.0" y="222" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">(a mais restritiva)</text>
+<text x="730.0" y="240" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">check “verificar” verde</text>
+<text x="730.0" y="258" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">histórico linear</text>
+<path d="M302 115 L586 190" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M302 240 L586 240" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M302 360 L586 290" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<text x="450" y="445" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Modo “Evaluate”: a regra só registra quem a violaria — ótimo para testar antes de ativar.</text>
+<text x="876" y="466" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#94a3b8">© 2026 Prof. Daniel Santos · CC BY-NC-SA 4.0</text>
+</svg>

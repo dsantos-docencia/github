@@ -1,0 +1,35 @@
+# Curso de GitHub · Módulo 09 · workflow de referência (© 2026 Prof. Daniel Santos · PolyForm-NC)
+# Ao enviar uma tag v*, empacota, gera checksums, atesta a proveniência e publica a release.
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write        # criar a release
+      id-token: write        # assinar a atestação (OIDC)
+      attestations: write    # gravar a atestação
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Empacotar
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          mkdir -p dist
+          tar -czf "dist/loja-$TAG.tar.gz" src/
+          (cd dist && sha256sum ./*.tar.gz > SHA256SUMS)
+      - uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: dist/*.tar.gz
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: gh release create "$TAG" dist/* --generate-notes --verify-tag

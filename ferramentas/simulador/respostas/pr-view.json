@@ -1,0 +1,26 @@
+{
+  "number": 7,
+  "title": "feat: login com e-mail",
+  "state": "OPEN",
+  "isDraft": false,
+  "author": {
+    "login": "bia-dev"
+  },
+  "headRefName": "feature/login",
+  "baseRefName": "main",
+  "createdAt": "2026-11-02T10:00:00Z",
+  "url": "https://github.com/aluno/laboratorio/pull/7",
+  "reviewDecision": "REVIEW_REQUIRED",
+  "repository": {
+    "nameWithOwner": "aluno/laboratorio"
+  },
+  "body": "Implementa login.\n\nCloses #12",
+  "files": [
+    {
+      "path": "src/login.js",
+      "additions": 80,
+      "deletions": 3
+    }
+  ],
+  "reviews": []
+}
