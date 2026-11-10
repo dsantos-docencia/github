@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" width="920" height="430" role="img" aria-label="Papéis de um repositório: cada degrau inclui o anterior">
+<title>Papéis de um repositório: cada degrau inclui o anterior</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="920" height="430" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="30" y="36" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Papéis de um repositório: cada degrau inclui o anterior</text>
+<rect x="30" y="230" width="160" height="110" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="110.0" y="256" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Read</text>
+<text x="110.0" y="276" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">clonar, ver issues</text>
+<text x="110.0" y="294" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">comentar, abrir PR</text>
+<rect x="205" y="192" width="160" height="110" rx="12" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+<text x="285.0" y="218" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Triage</text>
+<text x="285.0" y="238" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">rotular, atribuir</text>
+<text x="285.0" y="256" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">fechar issues/PRs</text>
+<rect x="380" y="154" width="160" height="110" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="460.0" y="180" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Write</text>
+<text x="460.0" y="200" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">push em branches</text>
+<text x="460.0" y="218" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">fazer merge de PRs</text>
+<rect x="555" y="116" width="160" height="110" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="635.0" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Maintain</text>
+<text x="635.0" y="162" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">configurar o repo</text>
+<text x="635.0" y="180" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">(sem ações perigosas)</text>
+<rect x="730" y="78" width="160" height="110" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="810.0" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">Admin</text>
+<text x="810.0" y="124" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">tudo: rulesets,</text>
+<text x="810.0" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">segredos, apagar</text>
+<text x="460" y="385" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Menor privilégio: quem só revisa não precisa de Write; quem saiu do time não fica Admin “por via das dúvidas”.</text>
+<text x="896" y="416" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#94a3b8">© 2026 Prof. Daniel Santos · CC BY-NC-SA 4.0</text>
+</svg>

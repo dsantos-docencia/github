@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="900" height="450" role="img" aria-label="Fork e pull request: contribuindo com quem você não conhece">
+<title>Fork e pull request: contribuindo com quem você não conhece</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="900" height="450" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="30" y="36" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Fork e pull request: contribuindo com quem você não conhece</text>
+<rect x="40" y="70" width="250" height="95" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="165.0" y="96" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🏢 upstream</text>
+<text x="165.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">projeto original</text>
+<text x="165.0" y="134" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">github.com/org/projeto</text>
+<rect x="610" y="70" width="250" height="95" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="735.0" y="96" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">🍴 origin (seu fork)</text>
+<text x="735.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">cópia sua no GitHub</text>
+<text x="735.0" y="134" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">github.com/voce/projeto</text>
+<rect x="325" y="275" width="250" height="95" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="450.0" y="301" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">💻 clone local</text>
+<text x="450.0" y="321" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">onde você trabalha</text>
+<text x="450.0" y="339" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">main · feature/x</text>
+<path d="M290 105 L608 105" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<text x="450" y="95" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">① Fork (botão / gh repo fork)</text>
+<path d="M735 166 L540 272" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<text x="680" y="230" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">② clone</text>
+<path d="M520 272 L700 168" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<text x="575" y="215" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">④ push</text>
+<path d="M260 168 L380 272" stroke="#475569" stroke-width="2" fill="none" stroke-dasharray="6 5" marker-end="url(#s)"/>
+<text x="190" y="240" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">③ fetch upstream</text>
+<path d="M610 145 L292 145" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<text x="450" y="137" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">⑤ pull request</text>
+<text x="450" y="410" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Você não precisa de permissão de escrita no upstream: o PR é um pedido para puxarem do seu fork.</text>
+<text x="876" y="436" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#94a3b8">© 2026 Prof. Daniel Santos · CC BY-NC-SA 4.0</text>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "data": {
+    "viewer": {
+      "login": "aluno",
+      "repositories": {
+        "totalCount": 12
+      }
+    },
+    "repository": {
+      "issues": {
+        "totalCount": 4
+      },
+      "pullRequests": {
+        "totalCount": 2
+      }
+    }
+  }
+}

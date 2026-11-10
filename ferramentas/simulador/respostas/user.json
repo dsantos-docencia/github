@@ -1,0 +1,10 @@
+{
+  "login": "aluno",
+  "id": 1234567,
+  "type": "User",
+  "name": "Aluno do Curso",
+  "public_repos": 12,
+  "followers": 3,
+  "html_url": "https://github.com/aluno",
+  "two_factor_authentication": true
+}

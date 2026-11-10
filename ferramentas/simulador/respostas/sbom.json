@@ -1,0 +1,30 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "name": "com.github.aluno/laboratorio",
+    "creationInfo": {
+      "created": "2026-11-10T09:00:00Z"
+    },
+    "packages": [
+      {
+        "name": "com.github.aluno/laboratorio",
+        "SPDXID": "SPDXRef-DOCUMENT"
+      },
+      {
+        "name": "npm:express",
+        "versionInfo": "4.19.2",
+        "licenseConcluded": "MIT"
+      },
+      {
+        "name": "npm:lodash",
+        "versionInfo": "4.17.20",
+        "licenseConcluded": "MIT"
+      },
+      {
+        "name": "actions:actions/checkout",
+        "versionInfo": "7.0.1",
+        "licenseConcluded": "MIT"
+      }
+    ]
+  }
+}

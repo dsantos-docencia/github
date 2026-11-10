@@ -1,0 +1,22 @@
+{
+  "tagName": "v1.1.0",
+  "name": "v1.1.0",
+  "isLatest": true,
+  "isDraft": false,
+  "isPrerelease": false,
+  "publishedAt": "2026-11-05T18:00:00Z",
+  "assets": [
+    {
+      "name": "laboratorio-1.1.0.tar.gz",
+      "size": 20480,
+      "downloadCount": 17
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 96,
+      "downloadCount": 9
+    }
+  ],
+  "url": "https://github.com/aluno/laboratorio/releases/tag/v1.1.0",
+  "body": "## O que mudou\n* feat: exportação CSV por @bia-dev em #6"
+}

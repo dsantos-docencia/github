@@ -1,0 +1,35 @@
+{
+  "number": 12,
+  "title": "Erro 500 ao salvar o perfil",
+  "state": "OPEN",
+  "labels": [
+    {
+      "name": "bug"
+    },
+    {
+      "name": "prioridade:alta"
+    }
+  ],
+  "assignees": [
+    {
+      "login": "bia-dev"
+    }
+  ],
+  "author": {
+    "login": "caio-qa"
+  },
+  "createdAt": "2026-11-01T12:00:00Z",
+  "updatedAt": "2026-11-08T12:00:00Z",
+  "url": "https://github.com/aluno/laboratorio/issues/12",
+  "milestone": {
+    "title": "v1.1"
+  },
+  "comments": [
+    {
+      "author": {
+        "login": "bia-dev"
+      },
+      "body": "Reproduzi aqui."
+    }
+  ]
+}

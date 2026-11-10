@@ -1,0 +1,41 @@
+[
+  {
+    "name": "laboratorio",
+    "nameWithOwner": "aluno/laboratorio",
+    "isPrivate": true,
+    "isArchived": false,
+    "isFork": false,
+    "sshUrl": "git@github.com:aluno/laboratorio.git",
+    "url": "https://github.com/aluno/laboratorio",
+    "pushedAt": "2026-11-09T14:00:00Z",
+    "defaultBranchRef": {
+      "name": "main"
+    }
+  },
+  {
+    "name": "site-pessoal",
+    "nameWithOwner": "aluno/site-pessoal",
+    "isPrivate": false,
+    "isArchived": false,
+    "isFork": false,
+    "sshUrl": "git@github.com:aluno/site-pessoal.git",
+    "url": "https://github.com/aluno/site-pessoal",
+    "pushedAt": "2026-10-12T14:00:00Z",
+    "defaultBranchRef": {
+      "name": "main"
+    }
+  },
+  {
+    "name": "projeto-antigo",
+    "nameWithOwner": "aluno/projeto-antigo",
+    "isPrivate": false,
+    "isArchived": true,
+    "isFork": false,
+    "sshUrl": "git@github.com:aluno/projeto-antigo.git",
+    "url": "https://github.com/aluno/projeto-antigo",
+    "pushedAt": "2024-03-01T14:00:00Z",
+    "defaultBranchRef": {
+      "name": "master"
+    }
+  }
+]

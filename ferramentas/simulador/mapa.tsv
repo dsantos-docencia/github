@@ -1,0 +1,53 @@
+# Mapa de respostas do gh simulado (padrão glob<TAB>resposta<TAB>código)
+# A ORDEM IMPORTA: o primeiro padrão que casar vence — específicos primeiro.
+--version	texto:gh version 2.103.3 (simulado)
+auth status*	texto:github.com\n  ✓ Logged in to github.com account aluno (simulado)
+auth token*	texto:gho_SIMULADO000000000000000000000000000
+api user*	user.json
+api rate_limit*	rate-limit.json
+api repos/*/rulesets/*	ruleset.json
+api repos/*/rulesets*	rulesets.json
+api repos/*/rules/branches/*	regras-da-branch.json
+api repos/*/collaborators*	colaboradores.json
+api repos/*/actions/runs*	runs-api.json
+api repos/*/pulls*	prs-api.json
+api repos/*/issues*	issues-api.json
+api repos/*/releases*	releases-api.json
+api repos/*/topics*	topics.json
+api orgs/*/repos*	repos-api.json
+api users/*/repos*	repos-api.json
+api repos/*/community/profile*	community.json
+api licenses/*	license-mit.json
+api repos/*/dependency-graph/sbom*	sbom.json
+api repos/*/dependabot/alerts*	dependabot-alerts.json
+api *repos/*/vulnerability-alerts*	-
+api repos/*/releases/generate-notes*	notas-geradas.json
+api repos/*/actions/permissions*	texto:{"enabled":true,"allowed_actions":"all","sha_pinning_required":false}
+api repos/*/actions/caches*	texto:{"total_count":2}
+api repos/*	repo-api.json
+api graphql*	graphql.json
+repo view*--json*	repo-view.json
+repo view*	texto:aluno/laboratorio\nRepositório de laboratório do Curso de GitHub (simulado)
+repo list*	repo-list.json
+issue list*	issue-list.json
+issue view*	issue-view.json
+issue create*	texto:https://github.com/aluno/laboratorio/issues/42
+pr list*	pr-list.json
+pr view*	pr-view.json
+pr create*	texto:https://github.com/aluno/laboratorio/pull/7
+pr checks*	texto:verificar\tpass\t1m2s\thttps://github.com/aluno/laboratorio/actions/runs/1
+search prs*	pr-list.json
+search issues*	issue-list.json
+label list*	label-list.json
+release list*	release-list.json
+release view*	release-view.json
+release create*	texto:https://github.com/aluno/laboratorio/releases/tag/v1.0.0
+run list*	run-list.json
+run view*	run-view.json
+workflow list*	workflow-list.json
+cache list*	cache-list.json
+secret list*	texto:NPM_TOKEN\t2026-10-01T12:00:00Z
+variable list*	texto:AMBIENTE\tproducao\t2026-10-01T12:00:00Z
+ruleset list*	ruleset-list.json
+ruleset view*	ruleset.json
+ruleset check*	texto:3 regras se aplicam à branch main\n- deletion\n- non_fast_forward\n- pull_request
