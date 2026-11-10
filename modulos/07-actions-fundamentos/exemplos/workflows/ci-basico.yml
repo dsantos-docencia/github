@@ -1,0 +1,30 @@
+# Curso de GitHub · Módulo 07 · workflow de referência (© 2026 Prof. Daniel Santos · PolyForm-NC)
+# Copie para .github/workflows/ci.yml do seu projeto e ajuste o comando de teste.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  merge_group:            # necessário se a branch usar merge queue (Módulo 06)
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Rodar os testes
+        run: ./testes.sh
+      - name: Resumo
+        if: always()
+        env:
+          RESULTADO: ${{ job.status }}
+        # "run: |" (bloco literal): o texto tem ": ", que quebraria uma linha YAML simples.
+        run: |
+          echo "### Testes: $RESULTADO" >> "$GITHUB_STEP_SUMMARY"

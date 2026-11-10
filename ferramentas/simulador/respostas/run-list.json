@@ -1,0 +1,38 @@
+[
+  {
+    "databaseId": 9001,
+    "workflowName": "CI",
+    "headBranch": "main",
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 57,
+    "createdAt": "2026-11-09T14:00:00Z",
+    "url": "https://github.com/aluno/laboratorio/actions/runs/9001",
+    "displayTitle": "feat: exportação CSV"
+  },
+  {
+    "databaseId": 9000,
+    "workflowName": "CI",
+    "headBranch": "feature/login",
+    "event": "pull_request",
+    "status": "completed",
+    "conclusion": "failure",
+    "number": 56,
+    "createdAt": "2026-11-09T13:10:00Z",
+    "url": "https://github.com/aluno/laboratorio/actions/runs/9000",
+    "displayTitle": "feat: login com e-mail"
+  },
+  {
+    "databaseId": 8999,
+    "workflowName": "Pages",
+    "headBranch": "main",
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "number": 12,
+    "createdAt": "2026-11-08T20:00:00Z",
+    "url": "https://github.com/aluno/laboratorio/actions/runs/8999",
+    "displayTitle": "docs: novo tutorial"
+  }
+]

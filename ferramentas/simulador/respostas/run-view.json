@@ -1,0 +1,24 @@
+{
+  "databaseId": 9000,
+  "workflowName": "CI",
+  "headBranch": "feature/login",
+  "event": "pull_request",
+  "status": "completed",
+  "conclusion": "failure",
+  "number": 56,
+  "createdAt": "2026-11-09T13:10:00Z",
+  "url": "https://github.com/aluno/laboratorio/actions/runs/9000",
+  "displayTitle": "feat: login com e-mail",
+  "jobs": [
+    {
+      "name": "testes (ubuntu-latest, 20)",
+      "conclusion": "failure",
+      "databaseId": 555
+    },
+    {
+      "name": "testes (ubuntu-latest, 22)",
+      "conclusion": "success",
+      "databaseId": 556
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "tagName": "v1.1.0",
+    "name": "v1.1.0",
+    "isLatest": true,
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-11-05T18:00:00Z"
+  },
+  {
+    "tagName": "v1.0.0",
+    "name": "v1.0.0",
+    "isLatest": false,
+    "isDraft": false,
+    "isPrerelease": false,
+    "publishedAt": "2026-10-01T18:00:00Z"
+  },
+  {
+    "tagName": "v1.2.0-rc.1",
+    "name": "v1.2.0-rc.1",
+    "isLatest": false,
+    "isDraft": false,
+    "isPrerelease": true,
+    "publishedAt": "2026-11-09T18:00:00Z"
+  }
+]

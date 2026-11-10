@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 360" width="940" height="360" role="img" aria-label="GitHub flow: do issue ao deploy em seis passos">
+<title>GitHub flow: do issue ao deploy em seis passos</title>
+<defs><marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="940" height="360" rx="16" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="30" y="36" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">GitHub flow: do issue ao deploy em seis passos</text>
+<rect x="30" y="90" width="130" height="130" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="95.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">① issue</text>
+<text x="95.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">o que e por quê</text>
+<text x="95.0" y="154" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">#42</text>
+<rect x="180" y="90" width="130" height="130" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="245.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">② branch</text>
+<text x="245.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">a partir da main</text>
+<text x="245.0" y="154" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">feature/login</text>
+<rect x="330" y="90" width="130" height="130" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="395.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">③ commits</text>
+<text x="395.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">pequenos, frequentes</text>
+<text x="395.0" y="154" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">git push</text>
+<rect x="480" y="90" width="130" height="130" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="545.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">④ pull request</text>
+<text x="545.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">conversa sobre</text>
+<text x="545.0" y="154" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">a mudança</text>
+<text x="545.0" y="172" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">Closes #42</text>
+<rect x="630" y="90" width="130" height="130" rx="12" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="695.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">⑤ revisão + CI</text>
+<text x="695.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">pessoas aprovam,</text>
+<text x="695.0" y="154" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">máquinas testam</text>
+<text x="695.0" y="172" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">✔ verificar</text>
+<rect x="780" y="90" width="130" height="130" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="845.0" y="116" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0f172a">⑥ merge</text>
+<text x="845.0" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">main sempre</text>
+<text x="845.0" y="154" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155">implantável</text>
+<text x="845.0" y="172" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11.5" font-weight="400" fill="#64748b">squash</text>
+<path d="M160 155 L178 155" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M310 155 L328 155" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M460 155 L478 155" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M610 155 L628 155" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M760 155 L778 155" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)"/>
+<path d="M695 222 C 695 300, 395 300, 395 224" stroke="#475569" stroke-width="2" fill="none" stroke-dasharray="6 5" marker-end="url(#s)"/>
+<text x="545" y="300" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="600" fill="#0f172a">novos commits na mesma branch</text>
+<text x="470" y="335" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#0f172a">A main nunca recebe push direto: tudo entra por PR — e o PR fecha o issue automaticamente.</text>
+<text x="916" y="346" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#94a3b8">© 2026 Prof. Daniel Santos · CC BY-NC-SA 4.0</text>
+</svg>

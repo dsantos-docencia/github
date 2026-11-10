@@ -1,0 +1,28 @@
+# Curso de GitHub · Módulo 07 · workflow de referência (© 2026 Prof. Daniel Santos · PolyForm-NC)
+name: Relatório semanal
+on:
+  schedule:
+    - cron: '0 11 * * 1'      # segundas, 11:00 UTC = 08:00 em Brasília
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: Quantos dias olhar para trás
+        type: number
+        default: 7
+permissions:
+  contents: read
+  issues: read
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Contar issues novos
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          DIAS: ${{ inputs.dias || 7 }}   # no agendamento não há inputs: usa 7
+        run: |
+          desde="$(date -u -d "$DIAS days ago" +%Y-%m-%d)"
+          total="$(gh issue list -R "$REPO" --search "created:>=$desde" --json number --jq length)"
+          echo "### 📊 $total issues novos desde $desde" >> "$GITHUB_STEP_SUMMARY"

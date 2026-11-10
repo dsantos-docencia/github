@@ -1,0 +1,42 @@
+{
+  "id": 777,
+  "name": "laboratorio",
+  "full_name": "aluno/laboratorio",
+  "private": true,
+  "visibility": "private",
+  "description": "Repositório de laboratório do Curso de GitHub",
+  "default_branch": "main",
+  "topics": [
+    "curso",
+    "github",
+    "laboratorio"
+  ],
+  "license": {
+    "spdx_id": "MIT",
+    "name": "MIT License"
+  },
+  "has_issues": true,
+  "has_wiki": false,
+  "has_discussions": false,
+  "allow_squash_merge": true,
+  "allow_merge_commit": false,
+  "allow_rebase_merge": true,
+  "delete_branch_on_merge": true,
+  "archived": false,
+  "open_issues_count": 4,
+  "stargazers_count": 3,
+  "forks_count": 1,
+  "html_url": "https://github.com/aluno/laboratorio",
+  "ssh_url": "git@github.com:aluno/laboratorio.git",
+  "security_and_analysis": {
+    "secret_scanning": {
+      "status": "enabled"
+    },
+    "secret_scanning_push_protection": {
+      "status": "enabled"
+    },
+    "dependabot_security_updates": {
+      "status": "disabled"
+    }
+  }
+}

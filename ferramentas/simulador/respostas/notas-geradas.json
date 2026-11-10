@@ -1,0 +1,4 @@
+{
+  "name": "v1.2.0",
+  "body": "## O que mudou\n### 🚀 Novidades\n* feat: exportação CSV por @bia-dev em https://github.com/aluno/laboratorio/pull/6\n### 🐛 Correções\n* fix: timeout no checkout por @dani-ops em https://github.com/aluno/laboratorio/pull/9\n\n**Changelog completo**: https://github.com/aluno/laboratorio/compare/v1.1.0...v1.2.0"
+}

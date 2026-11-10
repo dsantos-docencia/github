@@ -1,0 +1,50 @@
+[
+  {
+    "login": "aluno",
+    "id": 1234567,
+    "role_name": "admin",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    }
+  },
+  {
+    "login": "bia-dev",
+    "id": 2345678,
+    "role_name": "write",
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": true,
+      "triage": true,
+      "pull": true
+    }
+  },
+  {
+    "login": "caio-qa",
+    "id": 3456789,
+    "role_name": "triage",
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": true,
+      "pull": true
+    }
+  },
+  {
+    "login": "ex-estagiario",
+    "id": 4567890,
+    "role_name": "admin",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    }
+  }
+]

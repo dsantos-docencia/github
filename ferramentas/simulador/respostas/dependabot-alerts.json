@@ -1,0 +1,48 @@
+[
+  {
+    "number": 3,
+    "state": "open",
+    "dependency": {
+      "package": {
+        "ecosystem": "npm",
+        "name": "lodash"
+      },
+      "manifest_path": "package-lock.json"
+    },
+    "security_advisory": {
+      "ghsa_id": "GHSA-35jh-r3h4-6jhm",
+      "cve_id": "CVE-2021-23337",
+      "severity": "high",
+      "summary": "Command Injection in lodash"
+    },
+    "security_vulnerability": {
+      "first_patched_version": {
+        "identifier": "4.17.21"
+      }
+    },
+    "html_url": "https://github.com/aluno/laboratorio/security/dependabot/3"
+  },
+  {
+    "number": 2,
+    "state": "open",
+    "dependency": {
+      "package": {
+        "ecosystem": "npm",
+        "name": "express"
+      },
+      "manifest_path": "package-lock.json"
+    },
+    "security_advisory": {
+      "ghsa_id": "GHSA-qw6h-vgh9-j6wx",
+      "cve_id": "CVE-2024-43796",
+      "severity": "low",
+      "summary": "express vulnerable to XSS via response.redirect()"
+    },
+    "security_vulnerability": {
+      "first_patched_version": {
+        "identifier": "4.20.0"
+      }
+    },
+    "html_url": "https://github.com/aluno/laboratorio/security/dependabot/2"
+  }
+]

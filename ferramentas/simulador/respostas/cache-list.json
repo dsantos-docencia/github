@@ -1,0 +1,16 @@
+[
+  {
+    "id": 71,
+    "key": "npm-Linux-abc123",
+    "ref": "refs/heads/main",
+    "sizeInBytes": 52428800,
+    "lastAccessedAt": "2026-11-09T14:00:00Z"
+  },
+  {
+    "id": 70,
+    "key": "npm-Linux-old999",
+    "ref": "refs/pull/5/merge",
+    "sizeInBytes": 51200000,
+    "lastAccessedAt": "2026-10-20T09:00:00Z"
+  }
+]
